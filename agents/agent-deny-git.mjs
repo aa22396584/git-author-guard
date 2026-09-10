@@ -28,7 +28,7 @@ process.stdin.on('end', () => {
       why: '把 core.hooksPath 設成空/停用署名 hook，禁止。' },
     { re: /\bgit\s+commit-tree\b/i,
       why: 'git commit-tree 直接造 commit、完全跳過所有 hook，禁止。用一般 git commit。' },
-    { re: /\bgit\s+config\s+(--global\s+|--system\s+)?(--global\s+|--system\s+)?user\.(name|email)\b/i,
+    { re: /\bgit\s+config\b(?=[^\n]*\s--(global|system)\b)[^\n]*\buser\.(name|email)\b/i,
       why: '改 global/system 的 git user.name/email 會動到全域署名（：只准設 --local）。' },
     { re: /\bgit\s+config\b(?![^\n]*--(get|list))[^\n]*\bcore\.hookspath\b/i,
       why: '改 git 的 core.hooksPath（設定/清除/unset）會動到署名 hook 的掛載，禁止手動改；用 git-hooks/install.sh。（讀取 --get/--list 不擋）' },
