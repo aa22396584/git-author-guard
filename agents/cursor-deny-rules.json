@@ -1,0 +1,17 @@
+[
+  "Shell(git:*-c core.hooksPath=/**)",
+  "Shell(git:**/*-c core.hooksPath=/**)",
+  "Shell(git:*-c core.hookspath=/**)",
+  "Shell(git:**/*-c core.hookspath=/**)",
+  "Shell(git commit-tree)",
+  "Shell(git config --global user.email)",
+  "Shell(git config --global user.name)",
+  "Shell(git config --system user.email)",
+  "Shell(git config --system user.name)",
+  "Shell(git config core.hooksPath)",
+  "Shell(git config --local core.hooksPath)",
+  "Shell(git config --global core.hooksPath)",
+  "Shell(git config --unset core.hooksPath)",
+  "Shell(git config --local --unset core.hooksPath)",
+  "Shell(git config --unset-all core.hooksPath)"
+]

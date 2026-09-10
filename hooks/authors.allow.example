@@ -1,0 +1,3 @@
+# 允許的 git author/committer email —— 一行一個，# 開頭是註解。
+# 複製成 authors.allow 後填入你要允許的身分。
+you@example.com
