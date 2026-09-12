@@ -1,5 +1,10 @@
 # git-author-guard
 
+> **Development home:** https://github.com/ImL1s/git-author-guard  
+> Please open issues and pull requests there.  
+> **Mirrors:** [Codeberg](https://codeberg.org/ImL1s/git-author-guard) · [GitLab](https://gitlab.com/aa22396584/git-author-guard)
+
+
 Stop AI coding agents (and yourself) from committing under the **wrong git identity**.
 
 Many teams scan pushed commits and flag any `author_email` that isn't an approved
