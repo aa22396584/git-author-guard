@@ -1,8 +1,11 @@
 # git-author-guard
 
-> **Development home:** https://github.com/ImL1s/git-author-guard  
-> Please open issues and pull requests there.  
-> **Mirrors:** [Codeberg](https://codeberg.org/ImL1s/git-author-guard) · [GitLab](https://gitlab.com/aa22396584/git-author-guard)
+**Development, Issues & Pull Requests:**  
+https://github.com/aa22396584/git-author-guard
+
+**Mirrors:**  
+[GitLab](https://gitlab.com/aa22396584/git-author-guard) ·
+[Codeberg](https://codeberg.org/ImL1s/git-author-guard)
 
 
 Stop AI coding agents (and yourself) from committing under the **wrong git identity**.
